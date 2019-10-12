@@ -1,0 +1,15 @@
+.red {
+    background: white;
+    animation: alternate 1s infinite pulse;
+}
+
+
+@keyframes pulse {
+    0% {
+        background: white;
+    }
+
+    100% {
+        background: red;
+    }
+}
